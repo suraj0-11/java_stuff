@@ -12,7 +12,7 @@ public class Arithmetic
 		x = sur.nextDouble();
 		System.out.println("Enter the 2nd Number : ");
 		y = sur.nextDouble();
-		System.out.println("Enter the operator : ");
+		System.out.println("Enter the operator(+,-,*,/) : ");
 		op = sur.next().charAt(0);
 		switch(op)
 		{
