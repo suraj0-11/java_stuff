@@ -1,4 +1,6 @@
 import java.util.Scanner;
+/*If u are using online compiler i recommend u to change 
+Public class Main down below*/
 public class Arithmetic 
 {
 	public static void main(String[] args)
