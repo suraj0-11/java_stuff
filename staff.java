@@ -1,7 +1,8 @@
 import java.util.*;
 public class staff {
 
-	String staffid,name;
+	String staffid;
+        String name;
 	long phone;
 	float salary;
 	public void accept()
