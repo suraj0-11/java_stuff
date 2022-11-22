@@ -24,6 +24,7 @@ class staff {
 		System.out.println("Phone Number : "+phone);
 		System.out.println("Salary : "+salary);
 	}
+}
 	class Teaching extends staff
 	{
 		String domain;
@@ -101,4 +102,4 @@ class staff {
 		}
 	}
 
-}
+
