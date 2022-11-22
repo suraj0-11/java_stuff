@@ -41,37 +41,45 @@ System.out.println("\n");
 }
 public void display()
 {
-super.display(); System.out.println("Domain: " + domain);
+super.display(); 
+System.out.println("Domain: " + domain);
 System.out.println("Publications:"+n); 
 System.out.println("\n");
-} }
+} 
+}
 class Technical extends Staff
- {
+{
 String skill;
-public void accept() {
+public void accept() 
+{
 super.accept();
 Scanner scanner = new Scanner(System.in); 
 System.out.print("Enter technical Skills: "); 
 skill = scanner.nextLine(); 
 System.out.println("\n");
 }
-public void display() {
+public void display() 
+{
 super.display();
 System.out.println("Technical Skills: " + skill); 
 System.out.println("\n");
 }
 }
-class Contract extends Staff {
+class Contract extends Staff 
+{
 int period;
-public void accept() {
+public void accept() 
+{
 super.accept();
 Scanner scanner = new Scanner(System.in); 
 System.out.print("Enter Period: ");
 period = scanner.nextInt(); System.out.println("\n");
 }
-public void display() {
+public void display() 
+{
 super.display();
-System.out.println("Contract Period: " + period); }
+System.out.println("Contract Period: " + period); 
+}
 }
 class Four
 {
