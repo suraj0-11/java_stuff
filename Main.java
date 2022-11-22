@@ -56,14 +56,16 @@ scanner.nextLine(); System.out.println("\n");
 }
 public void display() {
 super.display();
-System.out.println("Technical Skills: " + skill); System.out.println("\n");
+System.out.println("Technical Skills: " + skill); 
+System.out.println("\n");
 }
 }
 class Contract extends Staff {
 int period;
 public void accept() {
 super.accept();
-Scanner scanner = new Scanner(System.in); System.out.print("Enter Period: ");
+Scanner scanner = new Scanner(System.in); 
+System.out.print("Enter Period: ");
 period = scanner.nextInt(); System.out.println("\n");
 }
 public void display() {
