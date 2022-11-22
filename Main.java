@@ -51,8 +51,9 @@ String skill;
 public void accept() {
 super.accept();
 Scanner scanner = new Scanner(System.in); 
-System.out.print("Enter technical Skills: "); skill = 
-scanner.nextLine(); System.out.println("\n");
+System.out.print("Enter technical Skills: "); 
+skill = scanner.nextLine(); 
+System.out.println("\n");
 }
 public void display() {
 super.display();
