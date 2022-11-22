@@ -1,5 +1,5 @@
 import java.util.*;
-public class staff {
+class staff {
 
 	String staffid;
         String name;
