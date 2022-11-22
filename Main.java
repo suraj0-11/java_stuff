@@ -1,20 +1,28 @@
-import java.util.Scanner; class Staff
+import java.util.Scanner; 
+class Staff
 {
-String staffId; String name;
+String staffId; 
+String name;
 long phone;
 float salary;
 public void accept()
 {
-Scanner scanner = new Scanner(System.in); System.out.print("Enter Staff Id: ");
-staffId = scanner.next(); System.out.print("Enter Name: ");
-name = scanner.next(); System.out.print("Enter Phone: ");
-phone = scanner.nextLong(); System.out.print("Enter Salary: ");
+Scanner scanner = new Scanner(System.in); 
+System.out.print("Enter Staff Id: ");
+staffId = scanner.next(); 
+System.out.print("Enter Name: ");
+name = scanner.next(); 
+System.out.print("Enter Phone: ");
+phone = scanner.nextLong(); 
+System.out.print("Enter Salary: ");
 salary = scanner.nextFloat();
 }
 public void display()
 {
-System.out.println("Staff Id: " + staffId); System.out.println("Name: " + name); 
-System.out.println("Phone: " + phone); System.out.println("Salary: " + salary);
+System.out.println("Staff Id: " + staffId); 
+System.out.println("Name: " + name); 
+System.out.println("Phone: " + phone); 
+System.out.println("Salary: " + salary);
 } 
 }
 class Teaching extends Staff
@@ -24,7 +32,8 @@ int n;
 public void accept()
 {
 super.accept();
-Scanner scanner = new Scanner(System.in); System.out.print("Enter Domain: ");
+Scanner scanner = new Scanner(System.in); 
+System.out.print("Enter Domain: ");
 domain = scanner.next();
 System.out.print("Enter Number of Publications: ");
 n = scanner.nextInt();
@@ -32,7 +41,8 @@ System.out.println("\n");
 }
 public void display()
 {
-super.display(); System.out.println("Domain: " + domain); System.out.println("Publications:"+n); 
+super.display(); System.out.println("Domain: " + domain);
+System.out.println("Publications:"+n); 
 System.out.println("\n");
 } }
 class Technical extends Staff
@@ -40,7 +50,8 @@ class Technical extends Staff
 String skill;
 public void accept() {
 super.accept();
-Scanner scanner = new Scanner(System.in); System.out.print("Enter technical Skills: "); skill = 
+Scanner scanner = new Scanner(System.in); 
+System.out.print("Enter technical Skills: "); skill = 
 scanner.nextLine(); System.out.println("\n");
 }
 public void display() {
@@ -63,14 +74,20 @@ class Four
 {
 public static void main(String[] args)
 {
-Teaching teaching = new Teaching(); System.out.println("Enter the details of Teaching Staff"); 
+Teaching teaching = new Teaching(); 
+System.out.println("Enter the details of Teaching Staff"); 
 teaching.accept();
-Technical technical = new Technical(); System.out.println("Enter the details of Technical Staff"); 
+Technical technical = new Technical(); 
+System.out.println("Enter the details of Technical Staff"); 
 technical.accept();
-Contract contract = new Contract(); System.out.println("Enter the details of Contract Staff"); 
+Contract contract = new Contract(); 
+System.out.println("Enter the details of Contract Staff"); 
 contract.accept();
-System.out.println("The details of Teaching Staff"); teaching.display();
-System.out.println("The details of Technical Staff"); technical.display();
+System.out.println("The details of Teaching Staff"); 
+teaching.display();
+System.out.println("The details of Technical Staff"); 
+technical.display();
 System.out.println("The details of Contract Staff");
-contract.display(); }
+contract.display(); 
+}
 }
