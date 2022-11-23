@@ -80,7 +80,7 @@ class staff {
 			System.out.println("Contract period : "+period);
 		}
 	}
-	class four
+	class Four
 	{
 		public static void main(String[] args)
 		{
