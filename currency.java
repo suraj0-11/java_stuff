@@ -24,12 +24,12 @@ public class currency
     }
     static void inrtousd()
 	{
-    	Scanner sur = new Scanner(System.in);
-		double inr,usd;
-		System.out.println("Enter the amount in ruppees : ");
-		inr = sur.nextDouble();
-		usd = inr/(82.73);
-		System.out.println(usd + " Dollars");
+    	       Scanner sur = new Scanner(System.in);
+               double inr,usd;
+	       System.out.println("Enter the amount in ruppees : ");
+	       inr = sur.nextDouble();
+	       usd = inr/(82.73);
+	       System.out.println(usd + " Dollars");
 	}
 	static void usdtoinr()
 	{
