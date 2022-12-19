@@ -22,7 +22,7 @@ public class currency
                  break;
     	}
     }
-    static void inrtousd()
+        static void inrtousd()
 	{
     	       Scanner sur = new Scanner(System.in);
                double inr,usd;
@@ -45,17 +45,17 @@ public class currency
 		Scanner sur = new Scanner(System.in);
 		double yen,inr;
 		System.out.println("Enter the amount in yen : ");
-        yen = sur.nextDouble();
-        inr = yen/(1.65);
-        System.out.println("Rs."+inr);
+                yen = sur.nextDouble();
+                inr = yen/(1.65);
+                System.out.println("Rs."+inr);
 	}
 	static void inrtoyen()
 	{
 		Scanner sur = new Scanner(System.in);
 		double yen,inr;
 		System.out.println("Enter the amount in ruppees : ");
-        inr = sur.nextDouble();
-        yen = inr*(1.65);
-        System.out.println("Rs."+inr);
+                inr = sur.nextDouble();
+                yen = inr*(1.65);
+                System.out.println("Rs."+inr);
 	}
 }
