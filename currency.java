@@ -56,6 +56,6 @@ public class currency
 		System.out.println("Enter the amount in ruppees : ");
                 inr = sur.nextDouble();
                 yen = inr*(1.65);
-                System.out.println("Rs."+inr);
+                System.out.println(inr+" yen");
 	}
 }
