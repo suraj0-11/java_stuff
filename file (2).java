@@ -1,49 +1,5 @@
-﻿bdiv.setBounds(110, 170, 45, 40);
-beq = new JButton("=");
-beq.setBounds(150, 170, 45, 40);
-bclr = new JButton("CLR");
-bclr.setBounds(30, 210, 165, 40);
-frame.add(t);
-frame.add(b0);
-frame.add(b1);
-frame.add(b2);
-frame.add(b3);
-frame.add(b4);
-frame.add(b5);
-frame.add(b6);
-frame.add(b7);
-frame.add(b8);
-frame.add(b9);
-frame.add(bdot);
-frame.add(badd);
-frame.add(bsub);
-frame.add(bmul);
-frame.add(bdiv);
-frame.add(beq);
-frame.add(bclr);
-b0.addActionListener(this);
-b1.addActionListener(this);
-b2.addActionListener(this);
-b3.addActionListener(this);
-b4.addActionListener(this);
-b5.addActionListener(this);
-b6.addActionListener(this);
-b7.addActionListener(this);
-b8.addActionListener(this);
-b9.addActionListener(this);
-badd.addActionListener(this);
-bsub.addActionListener(this);
-bmul.addActionListener(this);
-bdiv.addActionListener(this);
-bdot.addActionListener(this);
-beq.addActionListener(this);
-bclr.addActionListener(this);
-}
-public void actionPerformed(ActionEvent e) {
-        if (e.getSource() == bclr) {
-            t.setText("");
-        }
-        if (e.getSource() == b0) {
+
+
             t.setText(t.getText().concat("0"));
         }
         if (e.getSource() == b1) {
